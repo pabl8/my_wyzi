@@ -1,0 +1,31 @@
+<fieldset>
+    <legend class="screen-reader-text">Tab Formats</legend>
+    <div class="wyzi-claim-form-field-content">
+        <div class="wyzi-claim-form-input-field-container" ng-show="addToAdded(field.type)">
+            <label>Label</label>
+            <input type="text" ng-model="field.label" class="wyzi-claim-form-input-field" />
+        </div>
+        <div class="wyzi-claim-form-input-field-container">
+            <input type="checkbox" class="wyzi-claim-form-input-field" ng-model="field.required" ng-checked="field.required" />
+            <label> Required</label>
+        </div>
+        <div class="wyzi-claim-form-input-field-container">
+            <label>Open all day message</label>
+            <input type="text" class="wyzi-claim-form-input-field" ng-model="field.openMsg" />
+            <p class="description">text to display when a business is open all day. default: "Open all day"</p>
+        </div>
+        <div class="wyzi-claim-form-input-field-container">
+            <label>Closed all day message</label>
+            <input type="text" class="wyzi-claim-form-input-field" ng-model="field.closedMsg" />
+            <p class="description">text to display when a business is closed all day. default: "closed all day"</p>
+        </div>
+        <div class="wyzi-claim-form-input-field-container">
+            <label>Custom CSS Classes</label>
+            <input type="text" class="wyzi-claim-form-input-field" ng-model="field.cssClass" />
+        </div>
+        <div class="wyzi-claim-form-input-field-container">
+            <a href="#" ng-click="removeFormField(field.type, $index, $event)" class="wyzi-remove-form-field">Remove</a>
+        </div>
+
+    </div>
+</fieldset>

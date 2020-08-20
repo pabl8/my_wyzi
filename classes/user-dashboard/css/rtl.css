@@ -1,0 +1,161 @@
+body, h1, h2, h3, h4, h5, h6,
+input[type=text], input[type=password], input[type=email],
+textarea, select, input[type=button], input[type=submit],span,p,
+button{
+	text-align: right;
+}
+
+.navbar .brand,
+.box-header h2 {
+	float: right;
+}
+.header-nav,
+.box-header .box-icon,
+.nav-tabs.nav-stacked > li i.fa-angle-down {
+	float: left;
+}
+#sidebar-left{
+	left: initial;
+	right: -284px;
+}
+#sidebar-left.in{
+	right: 0;
+}
+
+#content,
+.page-title{
+	margin-right: 0;
+	right: 0;
+}
+#content.sb-open,
+.page-title.sb-open{
+	margin-left: 0;
+    margin-right: 284px;
+}
+.chzn-container-single .chzn-search input{left:0;}
+.chzn-container-single .chzn-drop{
+	display: none;
+}
+.chzn-container-single.chzn-container-active .chzn-drop{
+	display: block;
+}
+.dataTables_wrapper .dataTables_length>label>.chzn-container {
+	float: right !important;
+    margin-right: 0 !important;
+    margin-left: 20px !important;
+}
+.dataTables_wrapper .dataTables_filter input[type="text"]{
+	margin-right: 20px !important
+}
+.listing .listing-content {
+	padding-left: 0;
+	padding-right: 25px;
+}
+.listing-content h3 {
+    float: right;
+    margin-right: 0;
+    margin-left: 10px;
+}
+.listing-content .status{
+	text-align: right;
+}
+.listing-content .ratings{
+	text-align: right;
+}
+.listing .btns,
+.button.insert-media.add_media {
+	float: left;
+}
+.ratings label.star {
+	float: right;
+	margin-right: 0;
+	margin-left: 4px;
+}
+.ratings label.star .fa-star-half:before{
+	-moz-transform: scaleX(-1);
+	-o-transform: scaleX(-1);
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+	filter: FlipH;
+	-ms-filter: "FlipH";
+}
+.listing .btns .btn, .listing .btns .fav-bus {
+    padding: 11px 15px;
+    margin-left: 0;
+    margin-right: 10px;
+    float: right;
+}
+.chzn-container-single .chzn-search input {
+	 padding-right: 30px !important;
+}
+.wcmp_fpm_buttons {
+	left: initial;
+	right:3px;
+	margin-right: 0;
+}
+.cmb-row .cmb-th,
+#wyz_registration_form .input-box>label,
+.wcmp_regi_main .wcmp_regi_form_box label,
+.woocommerce form .form-row label,
+#booked-saveCustomTimeslots,
+.job-manager-form fieldset label,
+.open-close-days .cmb-remove-field-row,
+.open-close-days .cmb-type-group .cmb-type-text-time,
+.open-close-days .cmb-nested.cmb-repeatable-group.repeatable .inside.cmb-td.cmb-field-list,
+.open-close-days .cmb-type-group .cmb-type-text-time:not(:last-of-type) {
+	float: right;
+}
+#wyz-update-user,#logout-btn,
+.woocommerce a.button,
+.woocommerce-address-fields button[type="submit"],
+.woocommerce form .form-row input.input-text,
+.woocommerce form .form-row textarea,
+.woocommerce form .form-row .chzn-container,
+.btn-next.btn-square,
+.btn-square.button-primary,
+.app-note-cont.input-box{
+	float: left;
+	margin: 5px 0 0 30px;
+}
+
+#booked-custom-timeslots .addCustomTimeslot{
+	float: right;
+	margin: 0 0 0 10px;
+}
+
+#ui-datepicker-div.booked_custom_date_picker .ui-datepicker-header .ui-datepicker-prev{ left: 3px;right: initial; }
+#ui-datepicker-div.booked_custom_date_picker .ui-datepicker-header .ui-datepicker-next{right: 3px; left: initial;}
+.open-close-days .open-days {
+    margin-left: 2%;
+    margin-right: 200px;
+}
+.open-close-days .cmb-repeat-group-wrap:hover .open_close_status {
+	right: initial;
+    left: 50px;
+}
+.open-close-days .cmb-repeatable-grouping {width:100%;}
+.open-close-days .cmb-type-group .cmb-type-text-time:not(:last-of-type):first-child{
+	margin-right: 0;
+	margin-left: 2%;
+}
+.open-close-days .cmb-row .cmb-add-row button.cmb-add-group-row{
+	float: left !important;
+}
+.open-close-days .cmb-type-group .cmb-remove-field-row:after,
+.open-close-days .cmb-nested.cmb-field-list.cmb-repeatable-group .cmb-row:last-child:after{display: none;}
+.open-close-days .cmb-td .cmb-nested.cmb-field-list.cmb-repeatable-group .cmb-row:last-child{
+	width: calc(100% - 200px);
+    display: inline-block;
+}
+@media only screen and (max-width: 767px){
+	#content.sb-open,
+	.page-title.sb-open {
+		margin-right: 0;
+		right: 287px;
+	}
+	.open-close-days .open_close_status {
+		right: initial;
+		left: 0;
+		text-align: left;
+	}
+}

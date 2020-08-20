@@ -1,0 +1,41 @@
+/* -------------------------------------------------- 
+  :: Option Tree RTL
+  ---------------------------------------------------*/
+  
+#wpbody-content #page-ot_theme_options {
+    margin: 0px 5% 0 16% !important;
+    width: 83% !important;
+}
+
+.option-tree-ui-upload-parent {
+    margin-left: 895px !important;
+}
+
+.option-tree-ui-button.light .icon {
+    margin-right: 13px;
+}
+
+#page-ot_theme_options a {
+    width: 70px;
+}
+
+.option-tree-ui-button.light .icon {
+    padding-left: 20px;
+}
+
+a.js-remove-google-font.option-tree-ui-button.button.button-secondary.light {
+    width: 240px !important;
+}
+
+a.js-remove-google-font.option-tree-ui-button.button.button-secondary.light span.icon.ot-icon-minus-circle {
+    padding-left: 330px;
+}
+
+a.js-add-google-font.option-tree-ui-button.button.button-primary.right.hug-right {
+    width: 120px !important;
+}
+
+/* -------------------------------------------------- 
+  :: Wyzi Toolkit Options
+  ---------------------------------------------------*/
+  

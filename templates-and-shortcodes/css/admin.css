@@ -1,0 +1,17 @@
+
+.tribe-ui-datepicker.ui-datepicker-multi-3 .ui-datepicker-group {
+	width: 33% !important;
+}
+.ui-datepicker-multi-3 {
+	width: 53em !important;
+}
+
+.ui-slider .ui-slider-range {
+	height: 10px;
+	background-color: #ccc;
+}
+
+.own-slider-field.ui-slider.ui-slider-horizontal {
+    height: 10px;
+	background-color: #ebebeb;
+}

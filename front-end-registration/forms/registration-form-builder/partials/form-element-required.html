@@ -1,0 +1,21 @@
+<fieldset>
+    <legend class="screen-reader-text">Tab Formats</legend>
+    <div class="wyzi-claim-form-field-content">
+        <div class="wyzi-claim-form-input-field-container" ng-show="addToAdded(field.type)">
+            <label>Label</label>
+            <input type="text" ng-model="field.label" class="wyzi-claim-form-input-field" />
+        </div>
+        <div class="wyzi-claim-form-input-field-container">
+            <input type="checkbox" class="wyzi-claim-form-input-field" disabled ng-model="field.required" ng-checked="true" />
+            <label> Required</label>
+        </div>
+        <div class="wyzi-claim-form-input-field-container">
+            <label>Custom CSS Classes</label>
+            <input type="text" class="wyzi-claim-form-input-field" ng-model="field.cssClass" />
+        </div>
+        <div class="wyzi-claim-form-input-field-container">
+            <label>Tooltip</label>
+            <input type="text" class="wyzi-claim-form-input-field" ng-model="field.tooltip" />
+        </div>
+    </div>
+</fieldset>
